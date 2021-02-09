@@ -1,0 +1,89 @@
+.container {
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    .container-form {
+        box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+        border-radius: 7px;
+        h1 {
+            font-size: 22px;
+            line-height: 25px;
+            color: #282828;
+            text-align: center;
+            font-weight: normal;
+            margin: 25px 0 10px;
+            border-radius: 15px;
+        }
+
+        form {
+            flex-direction: column;
+            display: flex;
+            margin: 5px 24px;
+
+            label {
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.3px;
+                text-transform: uppercase;
+                color: #303030;
+                padding-bottom: 4px;
+                margin-top: 15px;
+                text-decoration: none;
+            }
+
+            input {
+                background: #f9fafb;
+                border: 1px solid #dedee0;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 20px 10px;
+            }
+
+            .forgot-password {
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.4px;
+                color: #8c8c8c;
+                text-align: right;
+                padding: 5px 0 15px 0;
+                text-decoration: none;
+            }
+
+            button {
+                background: #349a89;
+                border-radius: 5px;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 0.4px;
+                border: 0;
+                padding: 20px 0;
+                color: #ffffff;
+                cursor: pointer;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .have-acc {
+        width: 425px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #2a2a2a;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+        border-radius: 7px;
+
+        .register {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #349a89;
+        }
+    }
+}
